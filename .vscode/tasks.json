@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "swift",
+			"args": [
+				"build",
+				"--product",
+				"TicTacToe",
+				"-Xlinker",
+				"-debug:dwarf"
+			],
+			"env": {},
+			"cwd": "c:\\Users\\ciubi\\TicTacToe",
+			"disableTaskQueue": true,
+			"dontTriggerTestDiscovery": true,
+			"group": "build",
+			"problemMatcher": [],
+			"label": "swift: Build Debug TicTacToe",
+			"detail": "swift build --product TicTacToe -Xlinker -debug:dwarf"
+		}
+	]
+}
